@@ -351,7 +351,7 @@ window.addEventListener("load", function () {
       context.shadowOffsetX = 2;
       context.shadowOffsetY = 2;
       context.shadowColor = 'black';
-      context.font = this.fontSize + 'px' + this.fontFamily;
+      context.font = this.fontSize + 'px ' + this.fontFamily;
       // score
       context.fillText('Score: ' + this.game.score, 20, 40);
       // timer
